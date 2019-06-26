@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Images Montagne</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<div class="navbar">
+		<ul class="menu">
+			<a href="index.html"><li class="elem_menu"><p>Accueil</p></li></a>
+			<li class="elem_menu" onclick="imgMenu()">
+				<p>Images</p>
+				<div id="img_menu" class="img_menu_hidden">
+					<ul class="img_menu_list">
+							<li class="img_menu_list_elem"><a href="">Lac d'Oo</a></li>
+							<li class="img_menu_list_elem"><a href="">Lac du Portillon</a></li>
+							<li class="img_menu_list_elem"><a href="">Lac D'Annecy</a></li>
+							<li class="img_menu_list_elem" onclick="subMenu()">
+								<p>Par Montagne</p>
+								<ul id="sub_menu" class="img_sub_list_hidden">
+									<li class="sub_list_elem"><a href="">Juras</a></li>
+									<li class="sub_list_elem"><a href="">Alpes</a></li>
+								</ul>
+							</li>
+						</ul>	
+				</div>
+			</li>
+			<a href="contact.html"><li class="elem_menu"><p>Contact</p></li></a>
+		</ul>
+		<h1>La Montagne, ça vous gagne</h1>
+	</div>
+
+	<div class="img-list">
+			<img title="Vignemale" src="images/Vignemale.jpg" alt="vignemale">
+			<img title="Lac" src="images/lac.jpg" alt="lac">
+			<img title="Gavarnie" src="images/gavarnie.jpg" alt="Gavarnie">
+			<img title="Portillon" src="images/portillon.jpg" alt="portillon">
+			<img title="lac d'Oo" src="images/lacoo.jpg" alt="lac d'oo">
+			<img title="Foret" src="images/foret.jpeg" alt="foret">
+		</div>
+		
+	</div>
+	<script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>
